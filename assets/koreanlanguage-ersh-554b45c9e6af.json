@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "koreanlanguage-ersh",
+  "private_key_id": "554b45c9e6af70bafd114e5dac2ab9a682fd6111",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD6J3zTorej/Hu8\nJ4AgjkVkOeHt56SNrQiJlbvM5Sb99REXxC6YQSslVIWwTKdsDM/7pSiK7SoS19HR\nmO3XXhuSSiSin3htKn2x8PK4PjpWaE4NPlzVlzyIf9kzxg4Ve9YG57+GemdqgT5Q\nOyL9OSEocn+6CKMRTsXbuN8db/4aVZpyhHQDr9for8YqDScIBJnl3rDWT0p/bvo3\nN72HdEJgw8NWj+uRPTUwPu5KCF1DDQSLaIlXkLmVApRCjlDpLeXvTLW98qJ/jVbo\nc9YZU6HQ4nlnb5FBpVM8jUI9LQ4p3jxi55BbmXhPlisqhZ3EWEkLVmOr9KScTP2M\nBy1FMh/ZAgMBAAECggEABBrGTeo5ebWNhNHzuEsvyZrfiOPDVaXI/7sXCx/6rSfb\nw7+4rHb1lowHEk9ywdHsJ0NmYXq6XJUFSoe25dD2JMcCls1KEJvhEeGTvQ+mLXqN\nWopanEuraC5uFftaxR0W4ErSfWyWW5aZsURS1U4AoionGpph6HDVLlypeSnpYm1H\niwplVoJVc6sf/F5gip5MOe8LuBZPPIJ3DQDGgBkUDduZCdYS7KMUgkkP2HjIYJd5\nzyxrzi2Taeq3GNwIjwIM5IrJDVX0jAGKkqrxAAmlN6uK3ZrfzooqqVlfXaC1I7ek\nJKLsmeIV3J2t2wjpsXMieIBI3+sPT+JjVWx4HGuZdwKBgQD/mMd6z6KMeVEv/ESa\nLyLgELJX0lxn3EhGu/CMnU7gqpI/9tDTJ0CiIBhwyBB52hdwxhWeN8LOKB8i3XHl\n0fRklxVktkw47xnUJ90OFgHhcEaFZHGLuhQ7IFm9HC6ho0i7ImLKY16d81ZgoFHc\n0PWDeQKQtU5nKGWze5iXuUjqcwKBgQD6jIKtTV1gIK46TBiGKgkNa4lnL2XIk2sl\n6j0LjPQAmzzh60Ldf4e+DmmAUd4Mc2epD2hGoGxY0SV0z47hyFz9uDa3nYSd9zM7\nuSHjmxPGrM9SCfVAqbLQiCnv7W+PJ35TtO8FYHmwZSFTbhVdX1exfK9xmjbTpagh\n52K1mfh9gwKBgQDbFarO4xEylX54wiRPgN3E76reyip4wAGX19ptvRzySGLJvxbq\nFzg4f4hTi7lLqRv0h2XaU3OAYDWoHeZWFuwEGNi2leep2ZDrICxDuattAF8CUcFe\nAmb681TYW0LBPAPIm8XQMvLUMtM0SddBjj8TrXL8dNw6Yg8ilGuMib4tbwKBgDNw\nS5fm7UfCDeMcImDRGoCt1kzf90ahtXrYR2YqryG8vVgoo9azyxui+9gDdtIZk2ur\nJR5y6yuk7Mq5nj0OlMDmZB14cnS3/sXBMYr4GKxOaFYQg1CeRn73pZyDo8bBNfdb\ni0MQVot3h8sIK8y6uVdQIPjyz1TOiuFDDwn3rYOfAoGAQ4az5BS/NxHH0zSy/nQY\n+pN6MNZETvlKuBCWdDSgIPoNQSlqMjjTLHzoBdRM3vu1gadY9VihDn0fLawThn9A\nG/000aYgQ5TirSInIuo224Yn424irMLNbnkoUmDtH2UHYDYxaaxmH7/5zpZ1oEjG\n1As70vqgYCHTNv0dQcuWiEc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "korean@koreanlanguage-ersh.iam.gserviceaccount.com",
+  "client_id": "100362170274347417437",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/korean%40koreanlanguage-ersh.iam.gserviceaccount.com"
+}

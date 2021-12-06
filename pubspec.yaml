@@ -1,0 +1,585 @@
+name: language_airplane
+description: projeto tcc
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  sqflite: ^1.1.0
+  intl: ^0.15.8
+  firebase_core: ^0.4.0+2 # Recursos Básicos
+  cloud_firestore: ^0.12.5 # Banco de Dados
+  firebase_storage: ^3.0.1 # Armazenamento de Arquivos
+  firebase_auth: ^0.14.0 # Autenticação de Usuários
+  flutter_svg:
+  get: ^4.1.4
+  audioplayers: ^0.12.0
+  bubble: ^1.2.1
+  flutter_dialogflow:
+  image_picker:
+  url_launcher:
+  flutter_icons:
+  fluttertoast:
+  loading_animations:
+  loading_indicator:
+
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.0
+flutter_icons:
+  android: true
+  image_path: "Imagens/Logo.png"
+
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+  - Imagens/Fundo_quiz.png
+  - Imagens/Carregando.jpg
+  - Imagens/Fundo login.jpg
+  - Imagens/Coreano.jpg
+  - Imagens/Espanhol.jpg
+  - Imagens/Ingles.jpg
+  - Imagens/bate_papo.png
+  - Imagens/Dicionario.png
+  - Imagens/Aviao.png
+  - Imagens/Aeromoca.png
+  - Imagens/Livros_Coreano.png
+  - Imagens/Leitura_Coreano.png
+  - Imagens/Dialogo_Coreano.png
+  - Imagens/Diversao_Coreano.png
+  - Imagens/foto.png
+  - Imagens/Letra_Coreano.png
+  - Imagens/Fundo A.png
+  - Imagens/alice.jpg
+  - Imagens/chapeuzinho.png
+  - Imagens/coelho_tartaruga.jpg
+  - Imagens/Letra_Espanhol.png
+  - Imagens/Livros_Espanhol.png
+  - Imagens/Leitura_Espanhol.png
+  - Imagens/Dialogo_Espanhol.png
+  - Imagens/Diversao_Espanhol.png
+  - Imagens/Letra_Ingles.png
+  - Imagens/Livros_Ingles.png
+  - Imagens/Leitura_Ingles.png
+  - Imagens/Dialogo_Ingles.png
+  - Imagens/Diversao_Ingles.png
+  - Imagens/Tabela_Vogais_Simples.jpg
+  - Imagens/quiz_coreano.png
+  - Imagens/musica_coreano.png
+  - Imagens/quadrinho_coreano.png
+  - Imagens/prova_coreano.png
+  - Imagens/pipoca_coreano.png
+  - Imagens/one_coreano.png
+  - Imagens/ten_coreano.png
+  - Imagens/nine_coreano.png
+  - Imagens/eight_coreano.png
+  - Imagens/seven_coreano.png
+  - Imagens/six_coreano.png
+  - Imagens/five_coreano.png
+  - Imagens/four_coreano.png
+  - Imagens/three_coreano.png
+  - Imagens/two_coreano.png
+  - Imagens/question.png
+  - Imagens/correct.png
+  - Imagens/morango_coreano.png
+  - Imagens/banana_coreano.png
+  - Imagens/maça_coreano.png
+  - Imagens/uva_coreano.png
+  - Imagens/pera_coreano.png
+  - Imagens/laranja_coreano.png
+  - Imagens/limao_coreano.png
+  - Imagens/melancia_coreano.png
+  - Imagens/manga_coreano.png
+  - Imagens/abacaxi_coreano.png
+  - Imagens/preto_coreano.png
+  - Imagens/branco_coreano.png
+  - Imagens/azul_coreano.png
+  - Imagens/vermelho_coreano.png
+  - Imagens/amarelo_coreano.png
+  - Imagens/verde_coreano.png
+  - Imagens/laranjaCor_coreano.png
+  - Imagens/roxo_coreano.png
+  - Imagens/rosa_coreano.png
+  - Imagens/cinza_coreano.png
+  - Imagens/marrom_coreano.png
+  - Imagens/Teste Logo.png
+  - Imagens/A_Coreano.png
+  - Imagens/YA_Coreano.jpg
+  - Imagens/Ò_Coreano.png
+  - Imagens/YÓ_Coreano.png
+  - Imagens/O_Coreano.png
+  - Imagens/YO_Coreano.png
+  - Imagens/U_Coreano.png
+  - Imagens/YU_Coreano.png
+  - Imagens/Ù_Coreano.png
+  - Imagens/I_Coreano.png
+  - Imagens/preto_ingles.png
+  - Imagens/branco_ingles.png
+  - Imagens/azul_ingles.png
+  - Imagens/vermelho_ingles.png
+  - Imagens/amarelo_ingles.png
+  - Imagens/verde_ingles.png
+  - Imagens/laranjaCor_ingles.png
+  - Imagens/roxo_ingles.png
+  - Imagens/rosa_ingles.png
+  - Imagens/cinza_ingles.png
+  - Imagens/marrom_ingles.png
+  - Imagens/preto_espanhol.png
+  - Imagens/branco_espanhol.png
+  - Imagens/azul_espanhol.png
+  - Imagens/vermelho_espanhol.png
+  - Imagens/amarelo_espanhol.png
+  - Imagens/verde_espanhol.png
+  - Imagens/laranjaCor_espanhol.png
+  - Imagens/roxo_espanhol.png
+  - Imagens/rosa_espanhol.png
+  - Imagens/cinza_espanhol.png
+  - Imagens/marrom_espanhol.png
+  - Imagens/banana_espanhol.png
+  - Imagens/morango_espanhol.png
+  - Imagens/melancia_espanhol.png
+  - Imagens/maça_espanhol.png
+  - Imagens/pera_espanhol.png
+  - Imagens/uva_espanhol.png
+  - Imagens/laranja_espanhol.png
+  - Imagens/limao_espanhol.png
+  - Imagens/abacaxi_espanhol.png
+  - Imagens/manga_espanhol.png
+  - Imagens/banana_ingles.png
+  - Imagens/morango_ingles.png
+  - Imagens/melancia_ingles.png
+  - Imagens/maça_ingles.png
+  - Imagens/pera_ingles.png
+  - Imagens/uva_ingles.png
+  - Imagens/laranja_ingles.png
+  - Imagens/limao_ingles.png
+  - Imagens/abacaxi_ingles.png
+  - Imagens/manga_ingles.png
+  - Imagens/um_espanhol.png
+  - Imagens/dois_espanhol.png
+  - Imagens/tres_espanhol.png
+  - Imagens/quatro_espanhol.png
+  - Imagens/cinco_espanhol.png
+  - Imagens/seis_espanhol.png
+  - Imagens/sete_espanhol.png
+  - Imagens/oito_espanhol.png
+  - Imagens/nove_espanhol.png
+  - Imagens/dez_espanhol.png
+  - Imagens/um_ingles.png
+  - Imagens/dois_ingles.png
+  - Imagens/tres_ingles.png
+  - Imagens/quatro_ingles.png
+  - Imagens/cinco_ingles.png
+  - Imagens/seis_ingles.png
+  - Imagens/sete_ingles.png
+  - Imagens/oito_ingles.png
+  - Imagens/nove_ingles.png
+  - Imagens/dez_ingles.png
+  - Imagens/som.svg
+  - assets/audios/oi_coreano.mp3
+  - assets/koreanlanguage-ersh-554b45c9e6af.json
+  - Imagens/robot.jpg
+  - Imagens/lebre.png
+  - assets/audios/lebre_coreano.mp3
+  - assets/audios/crianca_coreano.mp3
+  - assets/audios/nao_ser_coreano.mp3
+  - assets/audios/chapeu_coreano.mp3
+  - assets/audios/historia_coreano.mp3
+  - assets/audios/onde_coreano.mp3
+  - assets/audios/mae_coreano.mp3
+  - assets/audios/mulher_coreano.mp3
+  - assets/audios/aqui_coreano.mp3
+  - assets/audios/laranja_coreano.mp3
+  - assets/audios/vir_coreano.mp3
+  - assets/audios/cozinhar_coreano.mp3
+  - assets/audios/dia_semana_coreano.mp3
+  - assets/audios/leite_coreano.mp3
+  - assets/audios/nos_coreano.mp3
+  - assets/audios/vidro_coreano.mp3
+  - assets/audios/rasao_coreano.mp3
+  - assets/audios/nome_coreano.mp3
+  - assets/audios/email_coreano.mp3
+  - assets/audios/lento_coreano.mp3
+  - assets/audios/onibus_coreano.mp3
+  - Imagens/volando.png
+  - Imagens/voando.jpg
+  - assets/audios/Volando.mp3
+  - Imagens/formiga.jpg
+  - Imagens/perro.jpg
+  - Imagens/leao.jpg
+  - Imagens/lion.jpg
+  - assets/audios/leao.mp3
+  - Imagens/rapunzel.jpg
+  - Imagens/jack.jpg
+  - assets/englishlanguage-ahkb-f33426fe7578.json
+  - assets/espanhollanguage-ejfn-badd5a1be57c.json
+  - assets/audios/fazer_s.mp3
+  - assets/audios/ir_s.mp3
+  - assets/audios/fazer_f.mp3
+  - assets/audios/ir_f.mp3
+  - assets/audios/fazer_i.mp3
+  - assets/audios/ir_i.mp3
+  - assets/audios/fazer_n.mp3
+  - assets/audios/ir_n.mp3
+  - assets/audios/comer_coreano.mp3
+  - assets/audios/dormir_coreano.mp3
+  - assets/audios/beber_coreano.mp3
+  - Imagens/mensagen_fundo.png
+  - assets/audios/dialogo1_coreano.mp3
+  - assets/audios/dialogo1_espanhol.mp3
+  - assets/audios/dialogo1_ingles.mp3
+  - Imagens/alfabeto_espanhol.jpg
+  - assets/audios/chocolate_espanhol.mp3
+  - assets/audios/leche_espanhol.mp3
+  - assets/audios/calle_espanhol.mp3
+  - Imagens/quiz_espanhol.png
+  - Imagens/quadrinho_espanhol.png
+  - Imagens/exam_espanhol.png
+  - Imagens/musica_espanhol.png
+  - Imagens/quiz_ingles.png
+  - Imagens/quadrinho_ingles.png
+  - Imagens/exame_ingles.png
+  - Imagens/musica_ingles.png
+  - assets/audios/Three Bears.mp3
+  - assets/audios/urso_coreano.mp3
+  - assets/audios/tresR_coreano.mp3
+  - assets/audios/unidadeAnimal_coreano.mp3
+  - assets/audios/topicoS_coreano.mp3
+  - assets/audios/umR_coreano.mp3
+  - assets/audios/casa_coreano.mp3
+  - assets/audios/particulaLTM_coreano.mp3
+  - assets/audios/verboTerC_coreano.mp3
+  - assets/audios/papai_coreano.mp3
+  - assets/audios/mamae_coreano.mp3
+  - assets/audios/bebe_coreano.mp3
+  - assets/audios/particulaT_coreano.mp3
+  - assets/audios/magra_coreano.mp3
+  - assets/audios/gordinho_coreano.mp3
+  - assets/audios/muito_coreano.mp3
+  - assets/audios/fofo_coreano.mp3
+  - assets/audios/feitoBem_coreano.mp3
+  - assets/audios/sorrindoAD_coreano.mp3
+  - Imagens/artigos_espanhol.png
+  - assets/audios/al_espanhol.mp3
+  - assets/audios/del_espanhol.mp3
+  - assets/audios/iAm_ingles.mp3
+  - assets/audios/youAre_ingles.mp3
+  - assets/audios/heLive_ingles.mp3
+  - assets/audios/sheIs_ingles.mp3
+  - assets/audios/itIs_ingles.mp3
+  - assets/audios/weSpeak_ingles.mp3
+  - assets/audios/youCan_ingles.mp3
+  - assets/audios/theyAre_ingles.mp3
+  - assets/audios/doYou_ingles.mp3
+  - assets/audios/iLove_ingles.mp3
+  - assets/audios/ILovehim_ingles.mp3
+  - assets/audios/saw_her_ingles.mp3
+  - assets/audios/youLove_ingles.mp3
+  - assets/audios/theyNever_ingles.mp3
+  - assets/audios/sheWrites_ingles.mp3
+  - assets/audios/sheTalk_ingles.mp3
+  - assets/audios/apple_ingles.mp3
+  - assets/audios/elephant_ingles.mp3
+  - assets/audios/ice_Cream_ingles.mp3
+  - assets/audios/owl_ingles.mp3
+  - assets/audios/umbrella_ingles.mp3
+  - assets/audios/cabeca_ingles.mp3
+  - assets/audios/ombro_ingles.mp3
+  - assets/audios/joelho_ingles.mp3
+  - assets/audios/e_ingles.mp3
+  - assets/audios/dedoPe_ingles.mp3
+  - assets/audios/olho_ingles.mp3
+  - assets/audios/ouvido_ingles.mp3
+  - assets/audios/boca_ingles.mp3
+  - assets/audios/nariz_ingles.mp3
+  - assets/audios/Head_Shoulders _Knees _And _Toes.mp3
+  - assets/audios/si_espanhol.mp3
+  - assets/audios/tu_espanhol.mp3
+  - assets/audios/ter_espanhol.mp3
+  - assets/audios/muito_espanhol.mp3
+  - assets/audios/vontade_espanhol.mp3
+  - assets/audios/de_espanhol.mp3
+  - assets/audios/aplaudir_espanhol.mp3
+  - assets/audios/oposicao_espanhol.mp3
+  - assets/audios/haver_espanhol.mp3
+  - assets/audios/nao_espanhol.mp3
+  - assets/audios/e_espanhol.mp3
+  - assets/audios/razao_espanhol.mp3
+  - assets/audios/a_espanhol.mp3
+  - assets/audios/te_espanhol.mp3
+  - assets/audios/ficar_espanhol.mp3
+  - assets/audios/com_espanhol.mp3
+  - assets/audios/as_espanhol.mp3
+  - assets/audios/rir_espanhol.mp3
+  - assets/audios/gritar_espanhol.mp3
+  - assets/audios/assobiar_espanhol.mp3
+  - assets/audios/Si_tú_Tienes_Muchas_Ganas_de_Aplaudir.mp3
+  - Imagens/pg1_espanhol.png
+  - assets/audios/seMe_espanhol.mp3
+  - assets/audios/la_espanhol.mp3
+  - assets/audios/bola_espanhol.mp3
+  - assets/audios/na_espanhol.mp3
+  - assets/audios/casa_espanhol.mp3
+  - assets/audios/vizinho_espanhol.mp3
+  - Imagens/pg2_espanhol.png
+  - assets/audios/vou_espanhol.mp3
+  - assets/audios/buscar_espanhol.mp3
+  - assets/audios/obrigadaX_espanhol.mp3
+  - Imagens/pg3_espanhol.png
+  - assets/audios/ajuda_espanhol.mp3
+  - assets/audios/precisa_espanhol.mp3
+  - Imagens/pg4_espanhol.png
+  - assets/audios/estudar_espanhol.mp3
+  - assets/audios/vouA_espanhol.mp3
+  - assets/audios/maravilhoso_espanhol.mp3
+  - assets/audios/eres_espanhol.mp3
+  - assets/audios/entao_espanhol.mp3
+  - Imagens/pg5_espanhol.png
+  - Imagens/pg6_espanhol.png
+  - assets/audios/quero_espanhol.mp3
+  - assets/audios/jogar_espanhol.mp3
+  - assets/audios/bambole_espanhol.mp3
+  - assets/audios/elas_espanhol.mp3
+  - Imagens/pg1_coreano.png
+  - Imagens/pg2_coreano.png
+  - Imagens/pg3_coreano.png
+  - Imagens/pg4_coreano.png
+  - Imagens/pg5_coreano.png
+  - Imagens/pg6_coreano.png
+  - Imagens/pg7_coreano.png
+  - Imagens/pg8_coreano.png
+  - Imagens/pg9_coreano.png
+  - Imagens/pg10_coreano.png
+  - Imagens/pg11_coreano.png
+  - Imagens/pg12_coreano.png
+  - Imagens/pg13_coreano.png
+  - Imagens/pg14_coreano.png
+  - Imagens/pg15_coreano.png
+  - Imagens/pg16_coreano.png
+  - Imagens/pg17_coreano.png
+  - Imagens/pg18_coreano.png
+  - Imagens/pg19_coreano.png
+  - Imagens/pg20_coreano.png
+  - Imagens/pg21_coreano.png
+  - assets/audios/refrescante_coreano.mp3
+  - assets/audios/assimQ_coreano.mp3
+  - assets/audios/gostei_coreano.mp3
+  - assets/audios/unidadeCoisa_coreano.mp3
+  - assets/audios/postar_coreano.mp3
+  - assets/audios/ne_coreano.mp3
+  - assets/audios/tenhoF_coreano.mp3
+  - assets/audios/rapido_coreano.mp3
+  - assets/audios/surpresa_coreano.mp3
+  - assets/audios/fiz_coreano.mp3
+  - assets/audios/negacao_coreano.mp3
+  - assets/audios/atualizacao_coreano.mp3
+  - assets/audios/hoje_coreano.mp3
+  - assets/audios/mas_coreano.mp3
+  - assets/audios/tirar_coreano.mp3
+  - assets/audios/maquiagem_coreano.mp3
+  - assets/audios/cheguei_coreano.mp3
+  - assets/audios/verdade_coreano.mp3
+  - assets/audios/ontem_coreano.mp3
+  - assets/audios/CaixaM_coreano.mp3
+  - assets/audios/entrou_coreano.mp3
+  - assets/audios/fazer_ao_coreano.mp3
+  - assets/audios/mensagem_coreano.mp3
+  - assets/audios/veio_coreano.mp3
+  - assets/audios/porAcaso_coreano.mp3
+  - assets/audios/namorado_coreano.mp3
+  - assets/audios/semChance_coreano.mp3
+  - assets/audios/Chantilly_coreano.mp3
+  - assets/audios/Interesse_coreano.mp3
+  - assets/audios/temFormal_coreano.mp3
+  - assets/audios/emVoce_coreano.mp3
+  - assets/audios/cemporCentoA_coreano.mp3
+  - assets/audios/trabalhaMeioPeríodo_coreano.mp3
+  - assets/audios/aquele_coreano.mp3
+  - assets/audios/ver_coreano.mp3
+  - assets/audios/suavizarP_coreano.mp3
+  - assets/audios/guardarLugar_coreano.mp3
+  - assets/audios/obrigadoPor_coreano.mp3
+  - assets/audios/verPassado_coreano.mp3
+  - assets/audios/euF_coreano.mp3
+  - assets/audios/realmente_coreano.mp3
+  - assets/audios/bonita_coreano.mp3
+  - assets/audios/proporcao_coreano.mp3
+  - assets/audios/gostar_coreano.mp3
+  - assets/audios/licenca_coreano.mp3
+  - assets/audios/sim_coreano.mp3
+  - assets/audios/haPouco_coreano.mp3
+  - assets/audios/desde_coreano.mp3
+  - assets/audios/olharTempo_coreano.mp3
+  - assets/audios/particulaS_coreano.mp3
+  - assets/audios/estarSatisfeito_coreano.mp3
+  - assets/audios/meioContato_coreano.mp3
+  - assets/audios/porFavor_coreano.mp3
+  - assets/audios/desculpaF_coreano.mp3
+  - assets/audios/novamente_coreano.mp3
+  - assets/audios/saborChocolate_coreano.mp3
+  - assets/audios/cremeChantilly_coreano.mp3
+  - assets/audios/muitoD_coreano.mp3
+  - assets/audios/levantar_coreano.mp3
+  - assets/audios/simF_coreano.mp3
+  - assets/audios/sair_coreano.mp3
+  - assets/audios/estejaCerto_coreano.mp3
+  - assets/audios/obrigadoF_coreano.mp3
+  - assets/audios/bomDia_coreano.mp3
+  - assets/audios/ordem_coreano.mp3
+  - assets/audios/naoI_coreano.mp3
+  - assets/audios/tchauF_coreano.mp3
+  - assets/audios/capuccinoF_coreano.mp3
+  - assets/audios/neF_coreano.mp3
+  - assets/audios/bebida_coreano.mp3
+  - assets/audios/terFormal_coreano.mp3
+  - assets/audios/nomeProprio_coreano.mp3
+  - assets/audios/chamarAlguem_coreano.mp3
+  - assets/audios/serI_coreano.mp3
+  - Imagens/pg1_ingles.png
+  - assets/audios/eu_ingles.mp3
+  - assets/audios/treinei_ingles.mp3
+  - assets/audios/euSou_coreano.mp3
+  - assets/audios/quem_ingles.mp3
+  - assets/audios/ser_ingles.mp3
+  - Imagens/pg2_ingles.png
+  - assets/audios/situacoesDificeis_ingles.mp3
+  - assets/audios/asVezes_ingles.mp3
+  - assets/audios/contraAgua_ingles.mp3
+  - assets/audios/contraVento_ingles.mp3
+  - Imagens/pg4_ingles.png
+  - Imagens/pg3_ingles.png
+  - assets/audios/ateMesmo_ingles.mp3
+  - assets/audios/contraMontanha_ingles.mp3
+  - Imagens/pg5_ingles.png
+  - assets/audios/mas_ingles.mp3
+  - Imagens/pg6_ingles.png
+  - Imagens/pg7_ingles.png
+  - Imagens/pg8_ingles.png
+  - Imagens/pg9_ingles.png
+  - Imagens/pg10_ingles.png
+  - Imagens/pg11_ingles.png
+  - assets/audios/hiJunior_ingles.mp3
+  - assets/audios/hiMaggy_ingles.mp3
+  - assets/audios/caramba_ingles.mp3
+  - assets/audios/doJeitoMaggy_ingles.mp3
+  - assets/audios/vouTer_ingles.mp3
+  - assets/audios/esforcar_ingles.mp3
+  - assets/audios/paraFicar_ingles.mp3
+  - assets/audios/meTornar_inglese.mp3
+  - assets/audios/quandoEuCrescer_ingles.mp3
+  - assets/audios/comer_ingles.mp3
+  - assets/audios/umSuperheroi_ingles.mp3
+  - assets/audios/seEu_ingles.mp3
+  - assets/audios/tudo_ingles.mp3
+  - assets/audios/meusPais_ingles.mp3
+  - assets/audios/meDao_ingles.mp3
+  - assets/audios/forteIgual_ingles.mp3
+  - assets/audios/euAmeiPai_ingles.mp3
+  - assets/audios/prometoAlimentarMelhor_ingles.mp3
+  - assets/audios/daMesmaManeiraCapitaoPete_ingles.mp3
+  - assets/audios/depoisDisso_ingles.mp3
+  - assets/audios/comeceiLutar_ingles.mp3
+  - assets/audios/meTornarForteSaudavel_ingles.mp3
+  - assets/audios/porqueComoBem_ingles.mp3
+  - assets/audios/fazerTudoIsso_ingles.mp3
+  - assets/audios/euSoPude_ingles.mp3
+  - assets/audios/muito_ingles.mp3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

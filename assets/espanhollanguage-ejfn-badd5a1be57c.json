@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "espanhollanguage-ejfn",
+  "private_key_id": "badd5a1be57c6a57d72766fd6c22ca1f732e039f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7ErLkXqSZ3cco\n8K9OYTQBAShiPvkPt21Q18tX/5VRm8zpooOLpOBjneh7z2luNcm246i81XYM6AUx\nxPunah0tQFCqxfd6dYwtqZkd/dRMjy+RAS+M3+6cfMw9xH63cMJst2wZDngFghP6\nmYRsG5EdV5bM7h4LeiwieyAE+S46bbybh5ZVoeCDnkXDFrFyIwAnJi3q9XCI5vRr\njEeiirF9IFxKiklVi7ClvBUXGSOD8PZ6PTlMMclLLFwIccW4FX8wisay3k32Wl9e\ncR3zKBa5IOMu3uMUUBMxQY2uGsDe+HzTlaMRLpokLFs8iobJun/yrE3Sf9dWWW4a\n8aTjIg4HAgMBAAECggEAGFQfNbnlOClyfC2I7u2PQM4wvU4pP9T//3KA/Gm9toZH\niN7csq13jRz9HhTkRjPyjrleuWgdWSJXgph2jdgsATWLCBqEy8U7vLiAtDjNgkNg\n0T/ROkXpFyrXuPSz8hFVB6R3B28tRrIa/Q03/oM7RRCeCPqyp5V05esTR/JMA8cG\nu1/sWMnEelDms7o7GhiDJha0QcVIApaQF71oXlx+4fy079rotGv3VOkX1uSNKh/k\nn/B4ITbI8T0XerYkivK4hf/whc1r9WnpySXgEvnPPgBuM2yBwq8Ybmh0FFXTJBAh\nQ5BVADYTXJMMqFftDWEIizOFo5IH8DBd4lnp03vqaQKBgQDiVv8zO+IQ1luhs2D/\nW2mJ4QzDASZtHYqKvzOR77gRITXO65gNPQlh7FK043mMkqx2yMeLsB34zrQHgjFr\nVUGcp9m0/0ZUERmTVxbi4YEyFZQ8lrfBbQkhcGwDVMS9nupOpIS4tmbfUIIHkFki\nrHJyT4xchvEYsvtM5KTJ1mQQPQKBgQDTlmwZ6R3v7vBAJDoC0RTqWKqLAggmLOXt\ny0yKsYFXNLsoOLbtFxPAQ/Tm+avnHofZDnMQG8O7lIc05ut2b/IWWub/r/2vvZvk\nLRacuL9tITs/ANag4btztJzgj0jAmlYq8vm13WBEbxdaFq8zmLLGWpXAAK/UWQxt\nuSUNWUhXkwKBgQDgM7j7cTgP4aZG2L8ec9hpQco4aC0+LOMNaTSWPNUh8rmwTGMD\nyhA/Na7/i8zdWHUJ/Pzc/AnUajyeq3J0lbE2knXu+mcZ4w5oiv4ao7IsgH+kPM+t\nBGrk+s2jxxZTltUWLZViuxvP3ZnQEEabOCLt5KpvBSRRiQmxM1Ogs4PPKQKBgDvc\n/Sy/hdbSdWrQVRFi8lXzTB0UMBYM8ei7ciZzXjK8Go+grDCcLNxi3bFTxk0XmDvT\nGL7f/BrgRPi0tL3Homisw1poApBsRuTh1Nn2c0J++nIy3IacFxr/aLsoDt9fSy3P\nnNLVlV0HSUYV0O/6Lepsyp2OFDEyGJAap98E+bC9AoGARoep+vjQZRSaq0MgSWsk\n+oHnPzx2WLJ/iRaXB1dU7wuTZdNEQXP37znhf4JMXQVH53c0gWLEZ/JhROMtohx5\nOyMdXC5XSnpwoJ7uQRahEEwAfKhwPgaTPtmmyRm43iZrTSR2wLeJXGg78GrcDu4d\nsvKi/aC5G7rQgQ2S2DfraqM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "espanhol@espanhollanguage-ejfn.iam.gserviceaccount.com",
+  "client_id": "105635304941244748330",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/espanhol%40espanhollanguage-ejfn.iam.gserviceaccount.com"
+}
